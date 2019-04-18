@@ -1,0 +1,20 @@
+/*
+Vars
+*/
+/* Fonts -
+
+regular 400
+regular 400 italic
+bold 700
+bold 700 Italic
+
+*/
+body {
+  font-family: 'Open Sans',sans-seriff;
+  font-size: 18px;
+  color: #010000;
+  font-style: normal; }
+
+/*
+Mixings
+*/

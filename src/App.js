@@ -1,13 +1,24 @@
-import React, {
-  Component
-} from 'react';
-import './Assets/css/defaut.min.css';
+import React, { Component } from "react";
+
+//components
+import Header from './components/headerComponent/header';
+import Footer from './components/footerComponent/footer';
+import HomePage from './components/pages/homePage';
+
+//includes
+import "./Assets/css/defaut.css";
+
 class App extends Component {
   render() {
-    return ( <
-      div className = "App" >
-      <
-      /div>
+    return (<div className="App">
+
+      <Header />
+
+      <HomePage />
+
+      <Footer />
+
+    </div>
     );
   }
 }
